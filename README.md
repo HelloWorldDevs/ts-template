@@ -169,7 +169,7 @@ yarn run deploy
 _*Note:*Deployment requires `./siteConfig.py`. See `./example.siteConfig.py` for instructions on setting up this file._
 
 To finish deployment:
-1. Ssh into the webfaction server as dan linn
+1. Ssh into the webfaction server
 2. `cd webapps/projectName_app`
 3. Clone the project with *this directory as the root* (`git clone url .`) 
 4. `npm install`
@@ -179,7 +179,7 @@ To finish deployment:
 
 DNS for this project is handled through [Name Cheap](https://www.namecheap.com/)
 
-1. Log into Name Cheap as Dan Linn
+1. Log into Name Cheap
 2. Domains > hwdevs.site > "Manage"
 3. Advanced DNS > "Add new record"
 	- Type: A Record
